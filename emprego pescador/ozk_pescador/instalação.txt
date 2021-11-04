@@ -1,0 +1,4 @@
+-chamar o evento "TriggerClientEvent("pescador",source)" quando a vara de pescar for usada no inventario
+-startar o vrp_taskbar
+-criar os itens "varadepesca" e "isca" e os peixes que estão no cfg
+-adicionar em alguma loja a opção de comprar os peixes.

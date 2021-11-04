@@ -1,0 +1,50 @@
+div { border: 0; outline: 0; vertical-align: baseline; background: transparent; margin: 0; padding: 0; }
+:focus { outline: 0; }
+::selection { background: transparent; }
+
+#actionmenu {
+	top: 40%;
+	right: -50px;
+	display: none;
+	position: fixed;
+	transform: translate(-50%,-50%);
+}
+
+#actionmenu button {
+	background: rgb(12, 0, 17);
+	width: 120px;
+	height: 40px;
+	border: 0;
+	color: #fff;
+	display: block;
+	font-weight: 700;
+	margin-top: 10px;
+	text-align: center;
+	border-radius: 3px;
+	letter-spacing: 0.5px;
+	padding: 0 20px;
+	box-shadow: 1px 1px 8px 2px rgba(12, 0, 17, 0.9);
+	border-right: 10px solid #ff7e00;
+	transition: 0.2s;
+}
+
+#actionmenu button:hover {
+	background: #ffffff;
+	color:rgb(24, 24, 24);
+	border-left: 10px solid #ffffff;
+	transition: 0.5s;
+
+}
+
+l {
+	width: 75%;
+	text-align: left;
+	float: left;
+}
+
+r {
+	color: rgba(255,255,255,0.5);
+	width: 25%;
+	text-align: right;
+	float: left;
+}
