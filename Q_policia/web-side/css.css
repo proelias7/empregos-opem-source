@@ -1,0 +1,82 @@
+body,td,th { font-size: 12px; font-family: Arial, Helvetica, sans-serif; color: #666; cursor: default; vertical-align: baseline; outline: 0; line-height: 1; margin: 0; padding: 0; word-wrap: break-word; }
+a,a:link,a:visited,a:active,a:hover { font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #666; text-decoration: none; }
+div,span,applet,object,iframe,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr { border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent; margin:0; padding:0; }
+:focus { outline:0; }
+img { border:none; }
+::-webkit-scrollbar { width: 0; }
+::selection { background: transparent; color: #666; }
+::-moz-selection { background: transparent; color: #666; }
+/* ---------------------------------------------------------------------------------------------------------------- */
+#mainPage {
+	left: 50%;
+	bottom: 5%;
+	width: 360px;
+	height: 50px;
+	display: none;
+	position: absolute;
+	transform: translate(-50%,-50%);
+}
+
+.item{
+	background: rgb(12, 0, 17);
+	box-shadow: 1px 1px 4px 3px rgba(12, 0, 17, 0.726);
+	transition: 0.3s;
+}
+
+.item1{
+	border: #a67ccd solid 5px;
+}
+.item1:hover{
+	border: #a67ccd solid 15px;
+	transition: .2s;
+}
+.item2{
+	border: #ff7e00 solid 5px;
+}
+.item2:hover{
+	border: #ff7e00 solid 15px;
+	transition: .2s;
+}
+.item3{
+	border: #4e77e0 solid 5px;
+}
+.item3:hover{
+	border: #4e77e0 solid 15px;
+	transition: .2s;
+}
+.item4{
+	border: #f2374d solid 5px;
+}
+.item4:hover{
+	border: #f2374d solid 15px;
+	transition: .2s;
+}
+.item5{
+	border: rgb(0, 255, 106) solid 5px;
+}
+.item5:hover{
+	border: rgb(0, 255, 106) solid 15px;
+	transition: .2s;
+}
+
+
+
+
+#mainPage li {
+	float: left;
+	height: 50px;
+	width: 50px;
+	margin-left: 5px;
+	border-radius: 50%;
+	list-style-type: none;
+}
+
+#mainPage li:hover {
+	color: rgba(0,0,0,0.8);
+}
+p{
+	color:rgb(255, 255, 255);
+	text-align: center;
+	font-size: 18px;
+	margin: 16px 0px;
+}

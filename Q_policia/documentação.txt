@@ -1,0 +1,24 @@
+
+**INSTALAÇÃO**
+//adicionar no server.cfg
+ensure Q_roubos
+//colocar a pasta Q_roubos dentro da pasta resurce("pode adicionar dentro de qualquer sub pasta")
+// adicionar função dentro do vrp/module/player_state ==>
+
+function vRP.log(webhook,message)
+	if webhook ~= nil and webhook ~= "" then
+		PerformHttpRequest(webhook, function(err, text, headers) end, 'POST', json.encode({content = message}), { ['Content-Type'] = 'application/json' })
+	end
+end
+
+//
+**REQUISITOS**
+NotifyPush
+vRP.getUsersByGroup()
+vRP.log()
+
+**DESCRIÇÃO**
+Gerenciador de roubos para fivem,
+
+
+IP:0.0.0.0
