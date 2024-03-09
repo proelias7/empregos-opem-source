@@ -3,7 +3,7 @@ local Proxy = module("vrp","lib/Proxy")
 local Tools = module("vrp","lib/Tools")
 vRP = Proxy.getInterface("vRP")
 job = {}
-Tunnel.bindInterface("vrp_postup",job)
+Tunnel.bindInterface("emp_carteiro",job)
 -----------------------------------------------------------------------------------------------------------------------------------------
 -- FUNÇÕES
 -----------------------------------------------------------------------------------------------------------------------------------------
